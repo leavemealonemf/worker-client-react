@@ -1,6 +1,8 @@
+import AddTaskPage from "./pages/AddTaskPage"
+
 const App = () => {
   return (
-    <div>App</div>
+    <AddTaskPage/>
   )
 }
 
