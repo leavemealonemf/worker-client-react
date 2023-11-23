@@ -8,7 +8,7 @@ export interface ITask {
 
 class TaskService {
     async addTask(title: string, description: string, createdById: number) {
-        const {data} = await $api.post('task', {title, description, createdById});
+        const {data} = await $api.post('requests', {title, description, createdById});
         return data;
     }
 }
